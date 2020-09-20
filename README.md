@@ -1,5 +1,5 @@
 <h1 align="center">
-  [benkim.dev](https://www.benkim.dev)
+  (benkim.dev)[https://www.benkim.dev]
 </h1>
 <p>Ben Kim's personal website</p>
 
