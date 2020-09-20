@@ -1,4 +1,4 @@
-# (benkim.dev)[https://www.benkim.dev]
+# [benkim.dev](https://www.benkim.dev)
 my personal website
 
 ## 💫 Deploy
