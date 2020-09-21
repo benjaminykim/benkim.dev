@@ -15,7 +15,7 @@ export default [
 		path: '',
 		source: 'https://github.com/cibic-io',
 		description:
-			'social platform for political discourse and civic engagement.',
+			'social platform for political discourse and civic engagement',
 		stack: 'Node, JS, TS, Flutter, Dart, AWS, Docker, BASH'
 	},
 	{
@@ -31,7 +31,7 @@ export default [
 		title: 'Autonomous Vehicle',
 		path: 'https://github.com/benjaminykim/self-driving-car-simulator',
 		source: 'https://github.com/benjaminykim/self-driving-car-simulator',
-		description: 'trained neural model to steer a vehicle around a track.',
+		description: 'trained neural model to steer a vehicle around a track',
 		stack: 'Python, Numpy, Tensorflow, Keras',
 	},
 	{
