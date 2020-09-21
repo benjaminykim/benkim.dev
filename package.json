@@ -16,8 +16,7 @@
   "dependencies": {
     "gatsby": "^2.24.61",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-pdf": "^5.0.0"
+    "react-dom": "^16.12.0"
   },
   "devDependencies": {
     "prettier": "2.1.1"
