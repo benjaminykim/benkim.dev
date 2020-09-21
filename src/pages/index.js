@@ -1,5 +1,6 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import { Link } from 'gatsby'
+import Helmet from 'react-helmet'
 
 import Layout from '../components/layout/Layout.js'
 import Projects from '../components/Projects.js'
@@ -24,6 +25,7 @@ export default function Home() {
 
   return (
 	<Layout>
+	  <Helmet title={`Ben Kim`} />
 		<section className="lead">
       <div className="container">
         <div className="copy">

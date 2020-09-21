@@ -1,11 +1,16 @@
-import React from "react"
+import React from 'react'
 import Layout from '../components/layout/Layout.js'
+import Helmet from 'react-helmet'
 
-export default function Home() {
+export default function Blog() {
   return (
 		<Layout>
+			<Helmet title={`Blog | Ben Kim`} />
 			<div className="container index">
-				<h1>Coming Soon!</h1>
+				<br/>
+				<br/>
+				<p>Coming Soon!</p>
 			</div>
-    </Layout>)
+		</Layout>
+	)
 }

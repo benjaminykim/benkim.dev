@@ -7,6 +7,13 @@ export default function Footer() {
       <section className="container">
         <nav className="footer-links">
 					<a
+						href="https://www.github.com/benjaminykim"
+            target="_blank"
+            rel="noopener noreferrer"
+					>
+  					<img align="left" alt="Ben's Github" width="22px" src="https://img.icons8.com/fluent/48/000000/github.png" />
+					</a>
+					<a
 						href="https://www.linkedin.com/in/benjamin-k-740412149/"
             target="_blank"
             rel="noopener noreferrer"
@@ -23,6 +30,7 @@ export default function Footer() {
 					<Link to="/">
   					<img align="left" alt="Ben's Personal Site" width="22px" src="https://img.icons8.com/fluent-systems-filled/24/000000/domain.png" />
 					</Link>
+
         </nav>
       </section>
     </footer>
