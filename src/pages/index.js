@@ -4,9 +4,11 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/layout/Layout.js'
 import Projects from '../components/Projects.js'
+import Experience from '../components/Experience.js'
 
 import ben_img from '../../static/ben_img.jpeg'
-import project_data from '../data/project.js';
+import project_data from '../data/project.js'
+import exp_data from '../data/experience.js'
 
 export default function Home() {
 	const Section = ({ title, children, button, to, ...props }) => (
@@ -45,6 +47,9 @@ export default function Home() {
     <div className="container index">
       <Section title="Projects">
         <Projects data={project_data} />
+      </Section>
+      <Section title="Experience">
+        <Experience data={exp_data} />
       </Section>
 		</div>
 	</Layout>
