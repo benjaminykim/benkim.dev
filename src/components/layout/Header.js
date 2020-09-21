@@ -14,6 +14,7 @@ export default function Header() {
           <div className="flex">
             <Link to="/">Me</Link>
             <Link to="/blog">Blog</Link>
+						<a href="mailto:1996byk@gmail.com?subject=Hi!">Contact</a>
 						<a href="/resume.pdf">Resume</a>
           </div>
         </div>
