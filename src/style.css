@@ -24,11 +24,6 @@
   --code-font-family: Menlo, 'Roboto Mono', Courier New, monospace;
 }
 
-/* prevent scrollbar from repositioning all content */
-html {
-	overflow-y: scroll;
-}
-
 /* Reset */
 
 *,
@@ -47,6 +42,7 @@ html {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;
+  overflow-y: scroll;
 }
 
 body {
