@@ -12,14 +12,11 @@ export default function Experience({ data }) {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<div></div>
 							<div className="company">{node.title}</div>
-							<div className="expCell">{node.description}</div>
-							<div></div>
-							<div className="expCell footer">{node.date}</div>
-							<div className="expCell footer">{node.stack}</div>
-							<div></div>
-							<div className="expCell footer stack">{node.role}</div>
+							<div className="expCell right">{node.description}</div>
+							<div className="expCell footer left">{node.date}</div>
+							<div className="expCell footer right">{node.stack}</div>
+							<div className="expCell footer left bottom">{node.role}</div>
 							<div></div>
 						</a>
         )

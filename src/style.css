@@ -923,12 +923,16 @@ p.skill-disclaimer {
   padding: 0 0 0.5rem 0;
 }
 
+.expCell.footer.left, .expCell.footer.right {
+  margin-left: 1rem;
+}
+
 .expCell.footer {
   font-size: 0.8rem;
   padding: 0 0 0rem 0;
 }
 
-.expCell.footer.stack {
+.expCell.footer.bottom {
   font-size: 0.8rem;
   padding: 0 0 1.5rem 0;
 }
@@ -1002,16 +1006,25 @@ p.skill-disclaimer {
   }
 
   .grid.exp {
-	grid-template-columns: 40px 1fr 4fr;
+	grid-template-columns: 1fr 4fr;
 	padding-left: 1em;
   }
 
   .company {
+	grid-column: auto;
 	font-weight: 600;
 	color: var(--dark-font-color);
 	font-size: 1.1rem;
 	line-height: 1.2;
 	padding: 0.25rem 0;
+  }
+
+  .expCell.right, .expCell.footer.right {
+	margin-left: 2rem;
+  }
+
+  .expCell.footer.left {
+	margin-left: 1rem;
   }
 
   .expCell {
@@ -1025,7 +1038,7 @@ p.skill-disclaimer {
 	padding: 0 0;
   }
 
-  .expCell.footer.stack {
+  .expCell.footer.bottom {
 	padding: 0.25rem 0 1rem 0;
   }
 }
