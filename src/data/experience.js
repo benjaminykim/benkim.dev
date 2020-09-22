@@ -13,6 +13,19 @@ export default [
 			'AUG 2020 - PRESENT',
 	},
 	{
+		title: 'Cibic',
+		path: 'https://www.github.com/cibic-io',
+		source: 'https://www.github.com/cibic-io',
+		description:
+			'social platform for political discourse and civic engagement',
+		stack:
+			'Flutter, Dart, Node, Express, TypeScript, Docker, BASH, AWS',
+		role:
+			'Co-founder, Fullstack, PM',
+		date:
+			'JAN - JULY 2020',
+	},
+	{
 		title: 'Soda Labs',
 		path: 'https://sodalabs.co/',
 		source: 'https://sodalabs.co/',
@@ -22,7 +35,7 @@ export default [
 		role:
 			'SWE Intern - Android',
 		date:
-			'MAY 2019 - SEP 2019',
+			'MAY - SEP 2019',
 	},
 	{
 		title: 'Division of Data Science',
@@ -34,6 +47,6 @@ export default [
 		role:
 			'Research Management Intern',
 		date:
-			'JAN 2018 - SEP 2018',
+			'JAN - SEP 2018',
 	}
 ]

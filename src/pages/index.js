@@ -5,10 +5,12 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout/Layout.js'
 import Projects from '../components/Projects.js'
 import Experience from '../components/Experience.js'
+import Skills from '../components/Skills.js'
 
 import ben_img from '../../static/ben_img.jpeg'
 import project_data from '../data/project.js'
 import exp_data from '../data/experience.js'
+import skill_data from '../data/skill.js'
 
 export default function Home() {
 	const Section = ({ title, children, button, to, ...props }) => (
@@ -51,6 +53,9 @@ export default function Home() {
       <Section title="Experience">
         <Experience data={exp_data} />
       </Section>
+			<Section title="Skills">
+				<Skills data={skill_data} />
+			</Section>
 		</div>
 	</Layout>
 	)
