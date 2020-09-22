@@ -18,20 +18,20 @@ export default [
 		stack: 'React, React Native, JS, TS, Django, C, Arduino, BASH'
 	},
 	{
-		icon: '🚗',
-		title: 'Autonomous Vehicle',
-		path: 'https://github.com/benjaminykim/self-driving-car-simulator',
-		source: 'https://github.com/benjaminykim/self-driving-car-simulator',
-		description: 'trained neural model to steer a vehicle around a track',
-		stack: 'Python, Numpy, Tensorflow, Keras',
-	},
-	{
 		icon: '💰',
 		title: 'StockView',
 		path: 'https://benjaminykim.github.io/stock_view/',
 		source: 'https://github.com/benjaminykim/stock_view',
 		description: 'react website to explore stock graphs and descriptions',
 		stack: 'React, JS',
+	},
+	{
+		icon: '🚗',
+		title: 'Autonomous Vehicle',
+		path: 'https://github.com/benjaminykim/self-driving-car-simulator',
+		source: 'https://github.com/benjaminykim/self-driving-car-simulator',
+		description: 'trained neural model to steer a vehicle around a track',
+		stack: 'Python, Numpy, Tensorflow, Keras',
 	},
 	{
 		icon: '📈',
