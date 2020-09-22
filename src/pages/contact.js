@@ -9,7 +9,7 @@ export default function Contact() {
 			<div className="container index">
 				<br/>
 				<br/>
-				<p>connect on <a href="https://www.linkedin.com/in/benjamin-k-740412149/">LinkedIn</a> or send an <a href="mailto:1996byk@gmail.com?subject=Hi!!">email</a></p>
+				<p>connect on <a href="https://www.linkedin.com/in/ben-kim-740412149/">LinkedIn</a> or send an <a href="mailto:1996byk@gmail.com?subject=Hi!!">email</a></p>
 				<p>find more on <a href="https://www.github.com/benjaminykim">GitHub</a></p>
 			</div>
 		</Layout>
