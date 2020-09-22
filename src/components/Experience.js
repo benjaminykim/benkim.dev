@@ -13,11 +13,14 @@ export default function Experience({ data }) {
 							rel="noreferrer"
 						>
 							<div></div>
-							<div className="cell company">{node.title}</div>
-							<div className="cell light description">{node.description}</div>
+							<div className="company">{node.title}</div>
+							<div className="expCell">{node.description}</div>
 							<div></div>
-							<div className="cell simple light description role">{node.role}</div>
-							<div className="cell simple light description stack">{node.stack}</div>
+							<div className="expCell footer">{node.date}</div>
+							<div className="expCell footer">{node.stack}</div>
+							<div></div>
+							<div className="expCell footer stack">{node.role}</div>
+							<div></div>
 						</a>
         )
       })}

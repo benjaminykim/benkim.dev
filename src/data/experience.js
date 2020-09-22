@@ -9,6 +9,8 @@ export default [
 			'Flutter, Dart, Laravel, PHP, Docker, AWS Lambda, BASH',
 		role:
 			'SWE Intern - Fullstack',
+		date:
+			'AUG 2020 - PRESENT',
 	},
 	{
 		title: 'Soda Labs',
@@ -19,6 +21,8 @@ export default [
 		stack: 'Android, Kotlin, Java, BASH, Groovy',
 		role:
 			'SWE Intern - Android',
+		date:
+			'MAY 2019 - SEP 2019',
 	},
 	{
 		title: 'Division of Data Science',
@@ -29,5 +33,7 @@ export default [
 		stack: 'Python, Numpy, Pandas, Sklearn, Tensorflow, Keras, R',
 		role:
 			'Research Management Intern',
+		date:
+			'JAN 2018 - SEP 2018',
 	}
 ]
