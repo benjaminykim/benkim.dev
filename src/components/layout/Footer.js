@@ -11,7 +11,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
 					>
-  					<img align="left" alt="Ben's Github" width="22px" src="https://img.icons8.com/fluent/48/000000/github.png" />
+  					<img align="left" alt="Ben's Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
 					</a>
 					<a
 						href="https://www.linkedin.com/in/benjamin-k-740412149/"
@@ -28,9 +28,8 @@ export default function Footer() {
   					<img align="left" alt="Ben's Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
 					</a>
 					<Link to="/">
-  					<img align="left" alt="Ben's Personal Site" width="22px" src="https://img.icons8.com/fluent-systems-filled/24/000000/domain.png" />
+						<i class="fa fa-laptop social" style={{marginTop: '3px', fontSize:'2em'}}></i>
 					</Link>
-
         </nav>
       </section>
     </footer>
