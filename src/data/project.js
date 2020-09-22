@@ -10,15 +10,6 @@ export default [
 			'Ruby on Rails, Flutter, Dart, Heroku',
 	},
 	{
-		icon: '⚖️',
-		title: 'Cibic',
-		path: '',
-		source: 'https://github.com/cibic-io',
-		description:
-			'social platform for political discourse and civic engagement',
-		stack: 'Node, JS, TS, Flutter, Dart, AWS, Docker, BASH'
-	},
-	{
 		icon: '🏠',
 		title: 'Co-Create Containers',
 		path: 'https://www.co-createcontainers.com/',
