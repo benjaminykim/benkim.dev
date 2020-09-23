@@ -919,6 +919,11 @@ p.exp-disclaimer {
   font-weight: 400;
 }
 
+.skill-item:hover {
+  background:  #3e68a2;
+  color: white;
+}
+
 .company {
   grid-column: 1 / span 2;
   font-size: 1.1rem;
