@@ -1002,6 +1002,30 @@ p.exp-disclaimer {
     border-bottom-right-radius: 0.35rem;
   }
 
+  .row .company:first-child {
+    padding-left: 1rem;
+    border-top-left-radius: 0.35rem;
+  }
+
+  .row .footer.left.bottom {
+    padding-left: 1rem;
+    border-bottom-left-radius: 0.35rem;
+  }
+
+  .row .expCell.right {
+    padding-right: 1rem;
+    border-top-right-radius: 0.35rem;
+  }
+
+  .row .expCell.footer.right {
+    border-top-right-radius: 0rem;
+  }
+
+  .row .expBlank {
+    padding-right: 1rem;
+    border-bottom-right-radius: 0.35rem;
+  }
+
   header h1 {
     font-size: 3rem;
     margin-top: 2rem;

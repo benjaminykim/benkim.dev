@@ -17,7 +17,7 @@ export default function Experience({ data }) {
 							<div className="expCell footer left">{node.date}</div>
 							<div className="expCell footer right">{node.stack}</div>
 							<div className="expCell footer left bottom">{node.role}</div>
-							<div></div>
+							<div className="expBlank"></div>
 						</a>
         )
       })}
