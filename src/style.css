@@ -892,6 +892,17 @@ p.skill-disclaimer {
   font-weight: 200;
 }
 
+p.exp-disclaimer {
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+
+@media screen and (min-width:800px) {
+	p.exp-disclaimer {
+		display: none;
+	}
+}
+
 .skill-section {
   display: flex;
   flex-wrap: wrap;

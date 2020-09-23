@@ -51,6 +51,7 @@ export default function Home() {
         <Projects data={project_data} />
       </Section>
       <Section title="Experience">
+				<p class="exp-disclaimer">*view on desktop to see full details</p>
         <Experience data={exp_data} />
       </Section>
 			<Section title="Skills">
