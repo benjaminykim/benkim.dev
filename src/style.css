@@ -921,8 +921,19 @@ p.skill-disclaimer {
   padding: 0 0 0.5rem 0;
 }
 
-.expCell.footer.left, .expCell.footer.right {
+.expCell.right {
+  font-size: 0.9rem;
+}
+
+.expCell.footer.right {
   margin-left: 1rem;
+  font-weight: 200;
+  display: none;
+}
+
+.expCell.footer.left {
+  margin-left: 1rem;
+  font-weight: 600;
 }
 
 .expCell.footer {
@@ -932,6 +943,7 @@ p.skill-disclaimer {
 
 .expCell.footer.bottom {
   font-size: 0.8rem;
+  font-weight: 200;
   padding: 0 0 1.5rem 0;
 }
 
@@ -1017,12 +1029,19 @@ p.skill-disclaimer {
 	padding: 0.25rem 0;
   }
 
-  .expCell.right, .expCell.footer.right {
+  .expCell.footer.right {
 	margin-left: 2rem;
+	display: block;
+  }
+
+  .expCell.right {
+	margin-left: 2rem;
+	font-size: 1.1rem;
   }
 
   .expCell.footer.left {
 	margin-left: 1rem;
+	font-weight: 600;
   }
 
   .expCell {
@@ -1038,6 +1057,7 @@ p.skill-disclaimer {
 
   .expCell.footer.bottom {
 	padding: 0.25rem 0 1rem 0;
+	font-weight: 200;
   }
 }
 
