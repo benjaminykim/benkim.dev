@@ -910,6 +910,8 @@ p.skill-disclaimer {
 
 .company {
   grid-column: 1 / span 2;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 .expCell {
@@ -923,6 +925,7 @@ p.skill-disclaimer {
 
 .expCell.right {
   font-size: 0.9rem;
+  display: none;
 }
 
 .expCell.footer.right {
@@ -932,7 +935,7 @@ p.skill-disclaimer {
 }
 
 .expCell.footer.left {
-  margin-left: 1rem;
+  margin-left: 0rem;
   font-weight: 600;
 }
 
@@ -1037,11 +1040,11 @@ p.skill-disclaimer {
   .expCell.right {
 	margin-left: 2rem;
 	font-size: 1.1rem;
+	display: block;
   }
 
   .expCell.footer.left {
 	margin-left: 1rem;
-	font-weight: 600;
   }
 
   .expCell {
