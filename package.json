@@ -14,6 +14,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "disqus-react": "^1.0.10",
     "gatsby": "^2.24.61",
     "gatsby-plugin-google-analytics": "^2.3.14",
     "react": "^16.12.0",
