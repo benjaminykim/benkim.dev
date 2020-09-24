@@ -13,6 +13,7 @@ module.exports = {
         trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || "none",
       }
     },
-    'gatsby-plugin-netlify-cms',
+		'gatsby-plugin-netlify-cms',
+		`gatsby-transformer-remark`
   ],
 }
