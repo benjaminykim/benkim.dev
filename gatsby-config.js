@@ -12,6 +12,7 @@ module.exports = {
       options: {
         trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || "none",
       }
-    }
+    },
+    'gatsby-plugin-netlify-cms',
   ],
 }
