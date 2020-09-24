@@ -30,7 +30,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 		console.log(node.frontmatter.slug);
 		console.log(node.frontmatter.title);
     createPage({
-      slug: '/blog/' + node.frontmatter.slug,
+      path: '/blog/' + node.frontmatter.slug,
       component: blogPostTemplate,
       context: {
         // additional data can be passed via context
