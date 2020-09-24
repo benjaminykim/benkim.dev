@@ -5,15 +5,21 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || "none",
-      }
-    },
+	/* Your site config here */
+	plugins: [{
+			resolve: 'gatsby-plugin-google-analytics',
+			options: {
+				trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || "none",
+			}
+		},
 		'gatsby-plugin-netlify-cms',
-		`gatsby-transformer-remark`
-  ],
+		{
+			resolve: `gatsby-source-filesystem`,
+			options: {
+				name: `markdown-pages`,
+				path: `${__dirname}/content/blog`,
+			},
+		},
+		`gatsby-transformer-remark`,
+	],
 }
