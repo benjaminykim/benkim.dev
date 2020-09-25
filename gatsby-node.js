@@ -1,4 +1,8 @@
 exports.createPages = async ({ actions, graphql, reporter }) => {
+
+	console.log("====================================")
+	console.log(`createPages entered`)
+	console.log("====================================")
   const { createPage } = actions
 
   const blogPostTemplate = require.resolve(`./src/templates/blogTemplate.js`)
@@ -11,14 +15,19 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       ) {
         edges {
           node {
+						id
+						html
             frontmatter {
-              slug
+							title
+							date
+							description
+              path
             }
           }
         }
       }
     }
-  `)
+	`)
 
   // Handle errors
   if (result.errors) {
@@ -27,14 +36,14 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   }
 
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-		console.log(node.frontmatter.slug);
-		console.log(node.frontmatter.title);
+		console.log(node.frontmatter)
     createPage({
-      path: '/blog/' + node.frontmatter.slug,
+      path: 'blog/' + node.frontmatter.path,
       component: blogPostTemplate,
       context: {
         // additional data can be passed via context
-        slug: '/blog/' + node.frontmatter.slug,
+				slug: node.frontmatter.path,
+				data: node.frontmatter,
       },
     });
   })
