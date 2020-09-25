@@ -1,23 +1,32 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Helmet from 'react-helmet'
+import Layout from '../components/layout/Layout'
+import { formatDate } from '../utils/helpers'
+
 export default function Template({
-  data, // this prop will be injected by the GraphQL query below.
+  data,
 }) {
-	console.log(data)
-	const { markdownRemark } = data // data.markdownRemark holds your post data
-	console.log(markdownRemark);
+	const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
   return (
-    <div className="blog-post-container">
-      <div className="blog-post">
-        <h1>{frontmatter.title}</h1>
-        <h2>{frontmatter.date}</h2>
+		<Layout>
+		<Helmet title={`${frontmatter.title} | Ben Kim`} />
+		<header>
+			<div className="container medium text-center">
+				<h1>{frontmatter.title}</h1>
+			</div>
+		</header>
+		<section>
+			<div className="container medium">
+        <p className="post-preview-date" >Published: {formatDate(frontmatter.date)}</p>
         <div
-          className="blog-post-content"
+          className="post-preview-description"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-      </div>
-    </div>
+			</div>
+		</section>
+	</Layout>
   )
 }
 

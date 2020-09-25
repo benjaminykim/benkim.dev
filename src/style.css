@@ -1161,3 +1161,34 @@ a.cell {
   color: var(--medium-font-color);
   font-size: 1rem;
 }
+
+/* blog */
+
+.post-preview {
+	margin: 0 0 2rem 0;
+}
+
+.post-preview:hover {
+	background: var(--light-background);
+}
+
+.post-preview-title {
+	padding: 0;
+	margin: 0;
+	font-size: 1.4em;
+	font-weight: 500;
+}
+
+.post-preview-date {
+	padding: 0;
+	margin: 0;
+	font-size: 1em;
+	font-weight: 200;
+}
+
+.post-preview-description {
+	padding: 0;
+	margin: 0;
+	font-size: 1.2em;
+	font-weight: 200;
+}
