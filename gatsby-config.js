@@ -21,5 +21,11 @@ module.exports = {
 			},
 		},
 		`gatsby-transformer-remark`,
+		{
+			resolve: 'gatsby-plugin-disqus',
+			options: {
+				shortname: process.env.GATSBY_DISQUS_NAME || "none",
+			}
+		}
 	],
 }
