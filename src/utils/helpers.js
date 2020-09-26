@@ -1,8 +1,9 @@
 export function formatDate(date) {
+	const monthString = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 	var pubDate = new Date(date)
-	var month = (pubDate.getMonth() + 1).toString()
+	var month = monthString[pubDate.getMonth()]
 	var day = (pubDate.getDate()).toString()
 	var year = (pubDate.getFullYear()).toString()
-	var pubFormat = month + "-" + day + "-" + year
+	var pubFormat = month + " " + day + ", " + year
 	return pubFormat
 }

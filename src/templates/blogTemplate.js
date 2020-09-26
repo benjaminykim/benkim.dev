@@ -25,7 +25,7 @@ export default function Template({
 		</header>
 		<section>
 			<div className="container medium">
-        <p className="post-preview-date" >Published: {formatDate(frontmatter.date)}</p>
+        <p className="post-preview-date" >{formatDate(frontmatter.date)}</p>
 				<CommentCount config={disqusConfig} placeholder={'...'} />
         <div
           className="post-preview-description"

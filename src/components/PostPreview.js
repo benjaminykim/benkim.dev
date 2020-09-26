@@ -9,7 +9,7 @@ export default function PostPreview({ data }) {
 					<div className="post-preview">
 						<a className="post-preview" href={"/blog/" + node.path}>
 							<p className="post-preview-title">{node.title}</p>
-							<p className="post-preview-date">Published: {formatDate(node.date)}</p>
+							<p className="post-preview-date">{formatDate(node.date)}</p>
 							<p className="post-preview-description">{node.description}</p>
 						</a>
 					</div>

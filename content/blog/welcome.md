@@ -14,3 +14,7 @@ So far, so good. My next steps are:
     - make sure that the lovely markdown style is showing. here's a quick test `test`. Looks like it's html :(
 - write a dope first blog about githooks
 - delete this welcome post, let's keep it professional :)
+
+```
+code block
+```
