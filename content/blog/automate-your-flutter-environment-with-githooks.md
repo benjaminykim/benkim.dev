@@ -85,4 +85,19 @@ fi
 printf "TESTS PASSED"
 ```
 
+### The Problem
+The `.git` directory is not checked into version control! Obviously, if you are working with a team you'll have to figure out a way to distribute your githooks so that everyone has access. However, if there are changes to the githooks and they are manually distributed, this becomes unscalable fast.
+
+The faster solution is to configure git locally on every developer's machine to reference a separate directory for githooks. Here's the script:
+
+```
+#!/bin/bash
+git config core.hooksPath .githooks/
+```
+
+I store this in a `init.sh` file on the root level of the repository, and in the README.md I have a section for configuration that guides the contributor to run the `./init.sh` script.
+
+### Conclusion
+Obviously, these Flutter specific commands don't restrict the use of githooks to this framework. In Node.js, Django, Ruby on Rails, React... there are many ways to leverage the commands that the framework gives you and integrate them with prominent technological infrastructure (Git) in a way that is scalable, efficient, easy to configure, seamless, productive and valuable to the developer.
+
 My next two blog posts will explain how to use Github Workflows for an automated CI pipeline and how to customize your style rules. 
