@@ -26,7 +26,7 @@ export default function Template({
 		<section>
 			<div className="container medium">
         <p className="post-preview-date" >{formatDate(frontmatter.date)}</p>
-				<CommentCount config={disqusConfig} placeholder={'...'} />
+				<CommentCount config={disqusConfig} placeholder={'0 comments'} />
         <div
           className="post-preview-description"
           dangerouslySetInnerHTML={{ __html: html }}
