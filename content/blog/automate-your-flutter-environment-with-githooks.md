@@ -1,15 +1,15 @@
 ---
 path: flutter-githooks
 date: 2020-09-26T00:51:56.845Z
-title: Automate your Flutter environment with Githooks
-description: use githooks and Flutter commands to automatically format, lint and
-  test your code
+title: Automate your Flutter environment with Git hooks
+description: use git hooks and Flutter commands to automatically format, lint
+  and test your code
 ---
-### A Githooks Briefer
+### A Git hooks Briefer
 
 An efficient developer automates as much of the development process as reasonably possible. Some of these efficiencies lie in the way we use the version control system Git.
 
-Git executes scripts, called `githooks`, before or after events. These scripts exist in the `.git/hooks` directory of a Git repository. Inspect the sample hooks provided here:
+Git executes scripts, called `git hooks`, before or after events. These scripts exist in the `.git/hooks` directory of a Git repository. Inspect the sample hooks provided here:
 
 <img src="https://raw.githubusercontent.com/benjaminykim/benkim-assets/master/blog-githooks-flutter-0.png"
      alt=".git/hooks directory file contents" />
@@ -18,9 +18,9 @@ Remove any of the `.sample` suffixes and Git will execute the given script. We c
 
 Can you think of any ways you could already integrate git hooks into your projects? Leave your ideas in the comments below.
 
-### Githooks and Flutter
+### Git hooks and Flutter
 
-In using Githooks with Flutter, I start with reviewing the Flutter specific commands that I use on a regular basis:
+In using Git hooks with Flutter, I start with reviewing the Flutter specific commands that I use on a regular basis:
 - `flutter analyze` - check if code abides by the lint style guide
 - `flutter format .` - autoformat the project code to abide by the Flutter style convention
 - `flutter test`
@@ -88,7 +88,7 @@ printf "TESTS PASSED"
 ### The Problem
 The `.git` directory is not checked into version control! Obviously, if you are working with a team you'll have to figure out a way to distribute your git hooks so that everyone has access. However, if there are changes to the git hooks and they are manually distributed this practice becomes quickly unscalable and inconsistent across local copies of the repository.
 
-The faster and more scalable solution is to configure git locally on every developer's machine to reference a separate directory for githooks. Here's the script:
+The faster and more scalable solution is to configure git locally on every developer's machine to reference a separate directory for git hooks. Here's the script:
 
 ```
 #!/bin/bash
@@ -102,6 +102,6 @@ This script requires each developer to run `./init.sh` once they clone the remot
 ### Conclusion
 All in all, we have two scripts `pre-commit` and `pre-push` inside of a `.githooks` directory, along with a `init.sh` script that changes git's internal path for the hooks directory.
 
-Obviously, these Flutter specific commands don't restrict the use of githooks to this framework. Node.js, Django, Ruby on Rails, React... there are many ways to leverage the commands that the framework gives you and integrate them with prominent technological infrastructure (Git) in a way that is scalable, efficient, easy to configure, seamless, productive and valuable to the developer.
+Obviously, these Flutter specific commands don't restrict the use of git hooks to this framework. Node.js, Django, Ruby on Rails, React... there are many ways to leverage the commands that the framework gives you and integrate them with prominent technological infrastructure (Git) in a way that is scalable, efficient, easy to configure, seamless, productive and valuable to the developer.
 
 My next two blog posts will explain how to use Github Workflows for an automated CI pipeline and how to customize your style rules.
