@@ -49,10 +49,6 @@ body {
   padding: 0;
 }
 
-article {
-  min-width: 0;
-}
-
 section {
   margin: 2rem 0;
 }
@@ -131,112 +127,9 @@ img {
   height: auto;
 }
 
-p,
-ol,
-ul,
-dl,
-table,
-blockquote {
+p {
   font-size: 1.05rem;
   margin: 0 0 1.5rem 0;
-}
-
-ul {
-  padding: 0 1rem;
-}
-
-@media screen and (min-width: 800px) {
-  p,
-  ol,
-  ul,
-  dl,
-  table,
-  blockquote {
-    font-size: 1.05rem;
-  }
-
-  ul {
-    padding: 0 2rem;
-  }
-}
-
-ul li p {
-  margin: 0;
-}
-
-ul li ul {
-  padding-left: 1rem;
-  margin: 0;
-}
-
-ul li ul li {
-  margin: 0;
-}
-
-ol li ol {
-  margin-bottom: 0;
-}
-
-.task-list-item [type='checkbox'] {
-  margin-right: 0.5rem;
-}
-
-blockquote {
-  margin: 2rem 0;
-  padding: 1rem;
-  background: var(--blockquote);
-  border-radius: 0.35rem;
-  font-weight: 400;
-}
-
-blockquote p {
-  margin: 0;
-}
-
-blockquote a {
-  padding: 1px 4px;
-}
-
-blockquote :not(pre) > code[class*='language-'] {
-  background: rgba(0, 0, 0, 0.1) !important;
-}
-
-blockquote a:hover {
-  border-radius: 0.35rem;
-  border-bottom: 1px solid var(--link-color-darker);
-  background: var(--link-color-darker);
-  color: white;
-}
-
-blockquote.quotation {
-  margin: 2rem 0;
-  padding: 0 1.5rem;
-  background: transparent;
-  border-radius: 0;
-  border: none;
-  border-left: 12px solid var(--border);
-}
-
-blockquote.quotation p {
-  font-family: Georgia, serif;
-  line-height: 1.6;
-  color: var(--medium-font-color);
-  font-size: 1.1rem;
-  margin: 0 0 2rem 0;
-}
-
-@media screen and (min-width: 800px) {
-  blockquote.quotation {
-    margin: 2.5rem 0;
-    overflow: auto;
-    border-width: 16px;
-  }
-  blockquote.quotation cite {
-    float: right;
-  }
-  blockquote.quotation p {
-    font-size: 1.3rem;
-  }
 }
 
 /* Headings */
