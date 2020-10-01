@@ -30,4 +30,10 @@ module.exports = {
 			}
 		}
 	],
+	siteMetadata: {
+		title: "Ben Kim",
+		titleTemplate: "%s",
+		description: "personal website for Ben Kim software engineer developer",
+		url: "https://www.benkim.dev", // No trailing slash allowed!
+	},
 }

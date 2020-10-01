@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout/Layout'
 import { formatDate } from '../utils/helpers'
 import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
+import Seo from '../components/seo.js'
 
 export default function Template({
   data,
@@ -18,6 +19,10 @@ export default function Template({
   return (
 		<Layout>
 		<Helmet title={`${frontmatter.title} | Ben Kim`} />
+		<Seo
+				title={frontmatter.title}
+				description={frontmatter.description}
+		/>
 		<header>
 			<div className="container medium text-center">
 				<h1>{frontmatter.title}</h1>

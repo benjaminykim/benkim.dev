@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout/Layout.js'
+import Seo from '../components/seo.js'
 import Projects from '../components/Projects.js'
 import Experience from '../components/Experience.js'
 import Skills from '../components/Skills.js'
@@ -25,6 +26,7 @@ export default function Home() {
   return (
 	<Layout>
 	  <Helmet title={`Ben Kim`} />
+		<Seo/>
 		<section className="lead">
       <div className="container">
         <div className="copy">
