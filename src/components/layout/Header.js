@@ -7,7 +7,7 @@ export default function Header() {
       <div className="container">
         <div className="flex">
           <div>
-            <Link to="/" className="brand">
+            <Link to="/" className="logo">
               Ben Kim
             </Link>
           </div>

@@ -13,15 +13,10 @@ import exp_data from '../data/experience.js'
 import skill_data from '../data/skill.js'
 
 export default function Home() {
-	const Section = ({ title, children, button, to, ...props }) => (
+	const Section = ({ title, children, ...props }) => (
     <section {...props}>
       <h2>
         {title}
-        {button && (
-          <Link className="section-button" to="/blog">
-            View all
-          </Link>
-        )}
       </h2>
       {children}
     </section>
