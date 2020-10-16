@@ -21,7 +21,7 @@ export default [
 		stack:
 			'Node, Express, PostgreSQL, Sequelize, React, JavaScript, AWS EC2, NGINX',
 		tags:
-			['Node', 'Express', 'PostgreSQL', 'Sequelize', 'React', 'JavaScript', 'AWS EC2', 'NGINX', 'Cloudflare', 'Firebase'],
+			['Node', 'Express', 'Postgres', 'React', 'JS', 'AWS'],
 	},
 	{
 		icon: '🏠',
@@ -30,7 +30,7 @@ export default [
 		source: 'https://github.com/co-create',
 		description: 'smart home IOT project to quantify the way we live',
 		stack: 'React, React Native, JS, TS, Django, C, Arduino, BASH',
-		tags: ['React', 'Flutter', 'JavaScript', 'TypeScript', 'Django', 'Rabbit MQ', 'C++', 'Arduino', 'BASH', 'AWS',],
+		tags: ['React', 'Flutter', 'Django', 'MQ', 'Arduino', 'AWS'],
 	},
 	{
 		icon: '💰',
@@ -57,6 +57,6 @@ export default [
 		source: 'https://github.com/benjaminykim/python_data_science_tutorial',
 		description: 'tutorial hosted for new developers and data scientists',
 		stack: 'Jupyter Notebook, Python, BASH, unix',
-		tags: ['Jupyter Notebook', 'Python', 'BASH', 'Unix', 'Numpy', 'Pandas', 'SKLearn'],
+		tags: ['Python', 'BASH', 'Unix', 'Numpy', 'Pandas', 'SKLearn'],
 	},
 ]

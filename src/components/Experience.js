@@ -12,12 +12,15 @@ export default function Experience({ data }) {
 							target="_blank"
 							rel="noreferrer"
 						>
+							<div className="blank"></div>
 							<div className="company">{node.title}</div>
 							<div className="expCell right">{node.description}</div>
+							<div className="blank"></div>
 							<div className="expCell footer left">{node.date}</div>
 							<div className="expCell footer right">{node.stack}</div>
+							<div className="blank"></div>
 							<div className="expCell footer left bottom">{node.role}</div>
-							<div className="expBlank"></div>
+							<div className="blank"></div>
 						</a>
         )
       })}

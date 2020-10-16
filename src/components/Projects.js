@@ -15,14 +15,9 @@ export default function Projects({ data }) {
 							<div className="cell simple">{node.icon}</div>
 							<div className="cell simple">{node.title}</div>
 							<div className="cell simple light description">{node.description}</div>
-							<div className="expBlank"></div>
-							<div className="expBlank"></div>
-							<div className="skill-section">
-								{ node.tags.map((tag) => {
-									return (<div className="skill-item">{tag}</div>)
-								})
-								}
-							</div>
+							<div></div>
+							<div></div>
+							<div className="stack-description">{node.stack}</div>
 						</a>
         )
       })}
