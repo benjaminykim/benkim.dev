@@ -30,7 +30,7 @@ export default [
 		source: 'https://github.com/co-create',
 		description: 'smart home IOT project to quantify the way we live',
 		stack: 'React, React Native, JS, TS, Django, C, Arduino, BASH',
-		tags: ['React', 'Flutter', 'JavaScript', 'TypeScript', 'Django', 'Rabbit MQ', 'C++', 'Arduino', 'BASH', 'AWS EC2', 'AWS Amplify', 'Firebase'],
+		tags: ['React', 'Flutter', 'JavaScript', 'TypeScript', 'Django', 'Rabbit MQ', 'C++', 'Arduino', 'BASH', 'AWS',],
 	},
 	{
 		icon: '💰',
