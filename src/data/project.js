@@ -15,7 +15,7 @@ export default [
     path: 'https://briefs.link',
     source: 'https://briefs.link',
     description:
-			'a url shortener',
+			'a url shortener with an analytics console',
 		stack:
 			'Node, Express, PostgreSQL, Sequelize, React, JavaScript, AWS EC2, NGINX',
 	},
