@@ -3,7 +3,7 @@ export default [
     title: 'Farm Generations',
     path: 'https://www.farmgenerations.coop/',
     source: 'https://www.farmgenerations.coop/',
-    description: 'an app to help local farmers sell directly to consumer',
+    description: 'an app to help local farmers sell direct to consumer',
     stack: 'React Native, Typescript, Firebase, Firebase Functions, React Native Web',
     role: 'Software Engineer',
     date: 'NOV 2020 - PRESENT',
@@ -18,7 +18,7 @@ export default [
 		stack:
 			'Flutter, Dart, Laravel, PHP, Docker, AWS Lambda, BASH',
 		role:
-			'SWE - Fullstack',
+			'Software Engineer - Fullstack',
 		date:
 			'AUG 2020 - PRESENT',
 	},
