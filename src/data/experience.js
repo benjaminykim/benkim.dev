@@ -1,5 +1,15 @@
 export default [
   {
+    title: 'Farm Generations',
+    path: 'https://www.farmgenerations.coop/',
+    source: 'https://www.farmgenerations.coop/',
+    description: 'an app to help local farmers sell directly to consumer',
+    stack: 'React Native, Typescript, Firebase, Firebase Functions, React Native Web',
+    role: 'Software Engineer',
+    date: 'NOV 2020 - PRESENT',
+
+  },
+  {
     title: 'Swim',
     path: 'https://swimapp.io/',
     source: 'https://swimapp.io/',
@@ -8,7 +18,7 @@ export default [
 		stack:
 			'Flutter, Dart, Laravel, PHP, Docker, AWS Lambda, BASH',
 		role:
-			'SWE Intern - Fullstack',
+			'SWE - Fullstack',
 		date:
 			'AUG 2020 - PRESENT',
 	},

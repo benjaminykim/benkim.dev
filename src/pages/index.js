@@ -34,7 +34,7 @@ export default function Home() {
             Hi! I'm Ben Kim, a software engineer
           </h1>
           <p>
-					  I'm a Fullstack intern at <a href="https://swimapp.io">Swim</a>. Check out my projects or my {' '}
+					  I'm a Software Engineer at <a href="https://www.farmgenerations.coop/">Farm Generations</a>. Check out my projects or my {' '}
             <Link to="/blog">blog posts</Link>.
           </p>
         </div>
